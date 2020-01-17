@@ -18,7 +18,7 @@
 2. 僵尸基类`Zombie`，派生类包括普通僵尸`BasicZombie`、路障僵尸`ConeZombie`等。
 3. 其他基类`Other`，派生类包括商店`Shop`、地图`Map`、卡牌`Card`等。
 
-![arch](PVZ/arch.png)
+![arch](images/arch.png)
 
 
 
@@ -28,7 +28,7 @@
 
 界面中的静态物体通过绘制`PNG`图片实现，动态物体通过绘制`GIF`图片的每一帧实现。
 
-![ui](PVZ/ui.png)
+![ui](images/ui.png)
 
 
 
@@ -416,7 +416,7 @@ void Button::mousePressEvent(QGraphicsSceneMouseEvent *event)
 * 铲除，拖动铲子到地块
 * 暂停/继续，按下右上角按钮
 
-![ui](PVZ/ui.png)
+![ui](images/ui.png)
 
 
 
