@@ -34,7 +34,10 @@ void Mower::advance(int phase)
     {
         flag = true;
         foreach (QGraphicsItem *item, items)
-            delete item;
+        {
+            Zombie *zombie = qgraphicsitem_cast<Zombie *>(item);
+            zombie->hp = 0;
+        }
     }
     if (flag)
         setX(x() + speed);
